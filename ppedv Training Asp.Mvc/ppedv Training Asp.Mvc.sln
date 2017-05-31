@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv Training Asp.Mvc", "ppedv Training Asp.Mvc\ppedv Training Asp.Mvc.csproj", "{30C36362-141F-4798-A83D-8F734D5228BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8EA00B74-9996-4FCD-BAF3-6F12D3A016D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Mvc", "Web Mvc", "{FF4EB8D6-C753-488C-9DA4-D0F4A0B79BF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Entity", "Data Entity", "{186F12CD-3C23-4551-817D-24B80AD840D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videothek.Data", "Videothek.Data\Videothek.Data.csproj", "{EF7CC5C9-24CC-4C01-8A73-EFE691DD3E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videothek.Core", "Videothek.Core\Videothek.Core.csproj", "{4FFE3251-9E3A-45C6-938D-7640123B3A82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C36362-141F-4798-A83D-8F734D5228BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C36362-141F-4798-A83D-8F734D5228BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C36362-141F-4798-A83D-8F734D5228BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C36362-141F-4798-A83D-8F734D5228BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7CC5C9-24CC-4C01-8A73-EFE691DD3E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7CC5C9-24CC-4C01-8A73-EFE691DD3E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7CC5C9-24CC-4C01-8A73-EFE691DD3E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7CC5C9-24CC-4C01-8A73-EFE691DD3E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFE3251-9E3A-45C6-938D-7640123B3A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFE3251-9E3A-45C6-938D-7640123B3A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFE3251-9E3A-45C6-938D-7640123B3A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFE3251-9E3A-45C6-938D-7640123B3A82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30C36362-141F-4798-A83D-8F734D5228BE} = {FF4EB8D6-C753-488C-9DA4-D0F4A0B79BF4}
+		{EF7CC5C9-24CC-4C01-8A73-EFE691DD3E9C} = {186F12CD-3C23-4551-817D-24B80AD840D6}
+		{4FFE3251-9E3A-45C6-938D-7640123B3A82} = {8EA00B74-9996-4FCD-BAF3-6F12D3A016D5}
+	EndGlobalSection
+EndGlobal
